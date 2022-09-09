@@ -17,3 +17,4 @@ def cursos(self):
     #planilla = loader.get_template('cursos.html')
     documento = f'Curso:{curso.nombre} camada:{curso.camada}'
     return HttpResponse(documento)
+
