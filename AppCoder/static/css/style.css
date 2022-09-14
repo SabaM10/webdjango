@@ -3,3 +3,21 @@
     top: 60px;
     border: 1px solid #ccc;
 }
+.contenidoEstudiantes {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.formDataEstudiantes { 
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.formDataEstudiantes input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

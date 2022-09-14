@@ -1,7 +1,15 @@
 {% extends "home.html" %}
 
 {% load static %}
-
+<link stylesheet="text/css" href="{% static 'css/style.css' %}">
 {% block contenido %}
     <p>Hola soy un estudiante...</p>
+    <div class="contenidoEstudiantes">
+        <form class="formDataEstudiantes">
+            <p>Nombre: <input type="text"></p>
+            <input type="text" placeholder="Apellido">
+            <input type="password" placeholder="password">
+            <input type="email" placeholder="email">
+        </form>
+    </div>
 {% endblock %}
