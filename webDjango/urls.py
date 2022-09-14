@@ -15,10 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from webDjango.view import home, homePage, cursos
+from webDjango.view import homePage, cursos
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/<name>', home),
     path('homepage/', homePage),
     path('cursos/', cursos),
     path('AppCoder/', include('AppCoder.urls')),
