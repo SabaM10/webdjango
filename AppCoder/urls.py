@@ -8,4 +8,6 @@ urlpatterns = [
     path('estudiantes/', estudiantes),
     path('entregables/', entregables),
     path('home/', home),
+    path('api_estudiantes/', api_estudiantes),
+    path('buscar_estudiante/', buscar_estudiante),
 ]
