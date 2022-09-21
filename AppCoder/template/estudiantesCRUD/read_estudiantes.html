@@ -1,0 +1,13 @@
+{% load static %}
+<link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+
+{% for estudiante in estudiantes %}
+    <li>
+        {{ estudiante}}
+        <a href = "/AppCoder/update_estudiantes/{{estudiante.id}}"class="btn btn-warning">EDIT</a>
+        <a href = "/AppCoder/delete_estudiantes/{{estudiante.id}}"class="btn btn-danger">DELETE</a>
+        
+    </li>
+    <br>
+{% endfor %}
+<a class="btn btn-success" href="/AppCoder/create_estudiantes">Agregar Estudiante</a>

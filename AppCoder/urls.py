@@ -10,4 +10,8 @@ urlpatterns = [
     path('home/', home),
     path('api_estudiantes/', api_estudiantes),
     path('buscar_estudiante/', buscar_estudiante),
+    path('create_estudiantes/', create_estudiantes),
+    path('update_estudiantes/<estudiante_id>', update_estudiantes),        
+    path('read_estudiantes/', read_estudiantes),
+    path('delete_estudiantes/<estudiante_id>', delete_estudiantes),    
 ]
